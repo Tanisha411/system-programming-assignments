@@ -4,6 +4,7 @@ Classic systems programming labs: assembler, loader, linker, macro processor (ty
 
 This repository contains my **System Programming assignments**, implemented in Java.  
 Each program demonstrates key concepts in assembler design, macro processing, and lexical analysis, inspired by the classical problems in system software.
+Wrote this before vibe coding became a thing so I'll cherish this repository forever :')
 
 ---
 
