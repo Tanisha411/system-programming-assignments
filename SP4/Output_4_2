@@ -1,0 +1,39 @@
+
+MNT:
+CLEARMEM 1 1 1 1 1 
+INCR 2 1 6 2 1 
+
+MDT:
+LCL (E,1)
+(E,1) SET 10
+MOVER (P,2), =0
+MOVEM (P,2), (P,1)+(E,1)
+MEND
+MOVER (P,3), (P,1)
+ADD (P,3), (P,2)
+LCL (E,1)
+(E,1) SET 5
+ADD (P,3), (E,1)
+MOVEM (P,3), (P,1)
+MEND
+
+Macro 1:
+EVNTAB | EVTAB
+M 10
+
+Macro 2:
+EVNTAB | EVTAB
+OPR 5
+APTAB:
+25
+AREG
+
+APTAB:
+30
+BREG
+
+APTAB:
+X
+Y
+AREG
+
