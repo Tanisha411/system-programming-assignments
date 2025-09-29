@@ -50,6 +50,7 @@ To run any program:
 2. Run the program.  
 3. Provide the required input through the terminal when prompted.
 4. Assignments 4 and 5 use file handling. The respective input files are present in those folders.
+5. Sorry I forgot to modify the file paths, please remove my file paths in assignments 4 and 5 and add yours (please look through the entire code so you don't miss any line where I've specified a file path) :(
 
 ---
 
