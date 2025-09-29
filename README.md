@@ -19,7 +19,9 @@ Each program demonstrates key concepts in assembler design, macro processing, an
 
 ### Assignment 2 – Two-Pass Assembler (Pass 2)
 - Location Counter (LC) processing  
-- Assembly code → Intermediate code (IC)  
+- Assembly code → Intermediate code (IC)
+- Literal Table generation
+- Pool Table generation
 
 ### Assignment 3 – Intermediate Code to Machine Code
 - Location Counter (LC) processing  
