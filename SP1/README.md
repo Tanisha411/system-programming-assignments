@@ -1,4 +1,3 @@
-# SP1 Assignment
 # Two-Pass Assembler – Pass 1
 
 This program implements **Pass 1 of a two-pass assembler**, a classic system programming assignment.  
@@ -18,21 +17,31 @@ It takes assembly program instructions as input via the terminal and performs th
 
 ---
 
-## Why This Matters
-Pass 1 of an assembler demonstrates understanding of how **assembly programs are processed for machine-level translation**.  
-Concepts like location counters, symbol resolution, and intermediate representations are foundational to:
-- Compiler construction  
-- Linker/loader design  
-- Modern build systems and toolchains  
+## How to Run
+The program can be run directly in any Java IDE:
+- Open `SP1.java` in your IDE (e.g., IntelliJ IDEA, Eclipse, VS Code).  
+- Run the program.  
+- Enter assembly code instructions through the terminal when prompted.  
 
-An interviewer reviewing this project will see that it covers:
-- Efficient handling of forward references  
-- The design of intermediate representations  
-- The basics of symbol resolution in language processing  
+The assembler will process your input and generate:
+- An intermediate representation of the program  
+- A symbol table with resolved addresses  
+- Performs 2 error checks - invalid mnemonic and missing comma after first operand
+---
+
+## Sample Output
+<img width="140" height="317" alt="image" src="https://github.com/user-attachments/assets/2d42bab2-819f-4056-b5db-0b6d99e221e2" />
+
+<img width="113" height="173" alt="image" src="https://github.com/user-attachments/assets/1f290751-58ed-423e-9d2d-70db67215bf3" />
+
+<img width="271" height="70" alt="image" src="https://github.com/user-attachments/assets/20427c90-0f0d-464c-bbfe-ced31863455b" />
+
+<img width="259" height="96" alt="image" src="https://github.com/user-attachments/assets/ea31160f-8701-42b6-8260-0d3a8fd66381" />
+
+<img width="258" height="85" alt="image" src="https://github.com/user-attachments/assets/71baf548-7390-4b14-8ef4-8c057e88757f" />
 
 ---
 
-## How to Run
-```bash
-javac SP1.java
-java SP1
+## Notes
+This assignment has been implemented with respect to the **hypothetical assembly language** described in the textbook  
+**_Systems Programming_ by D.M. Dhamdhere**.  
