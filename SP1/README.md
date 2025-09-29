@@ -13,7 +13,11 @@ It takes assembly program instructions as input via the terminal and performs th
 
 3. **Symbol Table Generation**  
    - Builds a **SYMTAB (Symbol Table)** mapping labels to their assigned addresses.  
-   - Detects forward references and maintains necessary bookkeeping for Pass 2.  
+   - Detects forward references and maintains necessary bookkeeping for Pass 2.
+  
+4. **Error Checking**  
+   - Invalid mnemonic 
+   - Comma missing after first operand 
 
 ---
 
@@ -26,7 +30,7 @@ The program can be run directly in any Java IDE:
 The assembler will process your input and generate:
 - An intermediate representation of the program  
 - A symbol table with resolved addresses  
-- Performs 2 error checks - invalid mnemonic and missing comma after first operand
+- Performs 2 error checks - invalid mnemonic and comma missing after first operand
 ---
 
 ## Sample Output
